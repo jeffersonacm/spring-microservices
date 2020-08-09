@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>academy.devdojo.youtube</groupId>
-    <artifactId>course</artifactId>
+    <artifactId>course-dev-dojo</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>course</name>
     <description>Spring boot microservices</description>
@@ -64,6 +64,11 @@
                     <artifactId>junit-vintage-engine</artifactId>
                 </exclusion>
             </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>javax.validation</groupId>
+            <artifactId>validation-api</artifactId>
+            <version>1.0.0.GA</version>
         </dependency>
     </dependencies>
 
