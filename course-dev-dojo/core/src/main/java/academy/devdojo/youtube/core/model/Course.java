@@ -1,6 +1,7 @@
-package academy.devdojo.youtube.course.endpoint.model;
+package academy.devdojo.youtube.core.model;
 
 import lombok.*;
+
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;
 
