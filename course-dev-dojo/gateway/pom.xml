@@ -9,26 +9,24 @@
         <relativePath>../</relativePath> <!-- lookup parent from repository -->
     </parent>
 
-    <artifactId>course</artifactId>
+    <artifactId>gateway</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>course</name>
-    <description>Spring Boot Micro-services By DevDojo</description>
+    <name>gateway</name>
+    <description>Gateway</description>
 
     <properties>
         <java.version>11</java.version>
-        <devdojo-core.version>1.0-SNAPSHOT</devdojo-core.version>
     </properties>
 
     <dependencies>
         <dependency>
-            <groupId>academy.devdojo.youtube</groupId>
-            <artifactId>core</artifactId>
-            <version>${devdojo-core.version}</version>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-zuul</artifactId>
         </dependency>
     </dependencies>
 
     <build>
-        <finalName>course</finalName>
+        <finalName>discovery</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
