@@ -26,6 +26,7 @@ public class ApplicationUser implements AbstractEntity {
 
     @NotNull(message = "The fiel 'password' is mandatory")
     @Column(nullable = false)
+    @ToString.Exclude
     private String password;
 
     @NotNull(message = "The fiel 'role' is mandatory")
