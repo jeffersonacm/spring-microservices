@@ -29,7 +29,7 @@ import java.util.stream.Collectors;
 @RequiredArgsConstructor(onConstructor = @__(@Autowired))
 public class TokenCreator {
 
-    private JwtConfiguration jwtConfiguration;
+    private final JwtConfiguration jwtConfiguration;
 
     @SneakyThrows
     public SignedJWT createSignedJWT(Authentication auth) {
