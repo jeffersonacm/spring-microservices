@@ -1,4 +1,4 @@
-package academy.devdojo.youtube.demo;
+package academy.devdojo.youtube.gateway;
 
 import org.springframework.boot.test.context.SpringBootTest;
 
